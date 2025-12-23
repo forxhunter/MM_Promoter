@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Project outputs
+output_markovian/
+*.lm
+*.log
+*.csv
+*.json
+plots/
+
+# IDEs
+.vscode/
+.idea/

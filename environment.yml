@@ -1,0 +1,16 @@
+name: mm_promoter
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - numpy
+  - scipy
+  - pandas
+  - h5py
+  - matplotlib
+  - notebook
+  - pip
+  - pip:
+    # Add any pip-specific dependencies here
+    # - jLM  # Assuming jLM is installed externally or via pip
