@@ -56,11 +56,13 @@ python models/galactose/run_cme_validation.py
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{wu2024markovian,
-  title={Efficient Simulation of Gene Regulation Using Markovian Promoter Models},
-  author={Wu, Tianyu and Roberts, Elijah},
-  journal={Bioinformatics},
-  year={2024},
-  publisher={Oxford University Press}
+@misc{wu2025markovianpromotermodelsmechanistic,
+      title={Markovian Promoter Models: A Mechanistic Alternative to Hill Functions in Gene Regulatory Networks}, 
+      author={Tianyu Wu},
+      year={2025},
+      eprint={2512.18442},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.MN},
+      url={https://arxiv.org/abs/2512.18442}, 
 }
 ```
