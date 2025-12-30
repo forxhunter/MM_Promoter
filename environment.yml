@@ -1,16 +1,17 @@
 name: mm_promoter
 channels:
-  - conda-forge
   - defaults
 dependencies:
-  - python>=3.8
-  - numpy
-  - scipy
-  - pandas
-  - h5py
-  - matplotlib
-  - notebook
+  - python=3.9
+  - numpy>=1.19
+  - scipy>=1.5
+  - pandas>=1.1
+  - matplotlib>=3.3
+  - seaborn>=0.11
+  - h5py>=2.10
+  - tqdm
   - pip
   - pip:
-    # Add any pip-specific dependencies here
-    # - jLM  # Assuming jLM is installed externally or via pip
+    - scienceplots
+    - latticemicrobes  # If available via pip, otherwise install manually
+    - jupyterlab
